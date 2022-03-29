@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import PassToAnother from "./Components/Propss";
 import PropsApp from "./Components/Propss";
 import UseState from "./Components/UseState";
+import UseEffect from "./Components/UseEffect";
 
 import {
   BrowserRouter as Routers,
@@ -17,17 +18,8 @@ export function Product() {
     <>
       <div className="min-h-full lg:text-left text-gray-600 p-8 bg-gray-700">
         <h3>Navigate to MasterFronentd lessons: </h3>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
-          <Link to="/propsa">Props in React</Link>
-        </button>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-          <Link to="/propsb">Props Example</Link>
-        </button>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-          <Link to="/usestate">Props Example</Link>
-        </button>
       </div>
-      <div className="min-h-full lg:text-left text-gray-600 p-8 bg-gray-700 grid grid-cols-3 gap-4 content-start ...">
+      <div className="min-h-full lg:text-left text-gray-600 p-8 bg-gray-700 grid grid-cols-4 gap-4 content-start ...">
         <div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <Link to="/usestate">Props Example</Link>
@@ -35,17 +27,17 @@ export function Product() {
         </div>
         <div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <Link to="/usestate">Props Example</Link>
+            <Link to="/usestate">UseState Example</Link>
           </button>
         </div>
         <div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <Link to="/usestate">Props Example</Link>
+            <Link to="/useeffect">UseEffect Example</Link>
           </button>
         </div>
         <div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <Link to="/usestate">Props Example</Link>
+            <Link to="/useref">UseRef Example</Link>
           </button>
         </div>
         <div>
@@ -69,6 +61,7 @@ function App() {
           <Route path="/propsa" element={<PassToAnother />} />
           <Route path="/propsb" element={<PropsApp />} />
           <Route path="/usestate" element={<UseState />} />
+          <Route path="/useeffect" element={<UseEffect />} />
         </Routes>
         <Footer />
       </Routers>
