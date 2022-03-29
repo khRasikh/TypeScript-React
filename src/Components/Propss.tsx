@@ -7,7 +7,7 @@ import Index from "./../Tools/propdetails";
  */
 /*a. Add variable properties*/
 type TagProps = {
-  firstName: string;
+  name: string;
   lastName: string;
   phone: string;
   email: string;
@@ -23,13 +23,13 @@ const TagName = (props: TagProps) => {
         <p>
           <b>TypeScrit Training:</b> Following personal information about{" "}
           <b>
-            {props.firstName} {props.lastName}{" "}
+            {props.name} {props.lastName}{" "}
           </b>
           are passed by props in TypeScript React:
           <hr />
         </p>
         <p>
-          <b>Name:</b> {props.firstName}{" "}
+          <b>Name:</b> {props.name}{" "}
         </p>
         <p>
           <b>Last Name:</b> {props.lastName}{" "}
@@ -55,7 +55,7 @@ const TagName = (props: TagProps) => {
 
 const PropsApp = () => (
   <TagName
-    firstName="Khudadad"
+    name="Khudadad"
     lastName="Rasikh"
     email="kh.rasikh542@gmail.com"
     phone="+49(0)1634880974"
@@ -72,7 +72,7 @@ const PassToAnother = () => {
   const mydate = new Date();
   return (
     <>
-      <Index firstName={name} id={id} />
+      <Index name={name} id={id} />
     </>
   );
 };
