@@ -1,6 +1,5 @@
 import React from "react";
 import "./Components.css";
-import Header from "./Header";
 import Index from "./../Tools/propdetails";
 /**1. In this example, I used some very simple and easy examples of
  * Props in React-TypeScript. Let's get started the first Example:
@@ -16,9 +15,6 @@ type TagProps = {
 const TagName = (props: TagProps) => {
   return (
     <>
-      <div className="newApp">
-        <h2>TypeScript App Bar</h2>
-      </div>
       <div className="newBody">
         <p>
           <b>TypeScrit Training:</b> Following personal information about{" "}
@@ -41,19 +37,11 @@ const TagName = (props: TagProps) => {
           <b>Email:</b> {props.email}{" "}
         </p>
       </div>
-      <div className="newFooter">
-        <h2>TypeScript: Footer</h2>
-        <ul>
-          <li>First </li>
-          <li>Second </li>
-          <li>Third </li>
-        </ul>
-      </div>
     </>
   );
 };
 
-const PropsApp = () => (
+export const PropsApp = () => (
   <TagName
     name="Khudadad"
     lastName="Rasikh"
@@ -66,7 +54,7 @@ const PropsApp = () => (
  * component:
  */
 
-const PassToAnother = () => {
+export const PassToAnother = () => {
   const id = 12221;
   const name = "Khudadad Rasikh";
   const mydate = new Date();
@@ -77,4 +65,4 @@ const PassToAnother = () => {
   );
 };
 
-export default PassToAnother;
+export default PropsApp;

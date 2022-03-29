@@ -76,7 +76,7 @@ function classNames(...classes: any) {
 const Header = () => {
   return (
     <>
-      <Popover className="relative bg-white">
+      <Popover className="relative bg-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -96,6 +96,12 @@ const Header = () => {
               </Popover.Button>
             </div>
             <Popover.Group as="nav" className="hidden md:flex space-x-10">
+              <a
+                href="/"
+                className="text-base font-medium text-gray-800 hover:text-gray-1200"
+              >
+                Home
+              </a>
               <Popover className="relative">
                 {({ open }) => (
                   <>
@@ -233,13 +239,7 @@ const Header = () => {
                 href="/"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
-                Pricing
-              </a>
-              <a
-                href="/"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Contact Us
+                Contact Me
               </a>
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">

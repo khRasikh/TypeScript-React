@@ -1,5 +1,5 @@
 .newApp {
-  background-color: #0b9ed0;
+  background-color: #4f46e5;
   color: white;
   padding-left: 5%;
   padding-right: 5%;
@@ -16,7 +16,7 @@
   height: 400px;
 }
 .newFooter {
-  background-color: #0b9ed0;
+  background-color: #4f46e5;
   color: white;
   padding-left: 5%;
   padding-right: 5%;
@@ -26,7 +26,7 @@
 }
 
 .newButton {
-  background-color: #0b9ed0;
+  background-color: #4f46e5;
   border: 1px solid transparent;
   border-radius: 3px;
   box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
@@ -54,7 +54,7 @@
 .newInput {
   border: 1px solid;
   border-radius: 3px;
-  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-shadow: #4f46e5 inset;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;

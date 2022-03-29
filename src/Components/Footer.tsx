@@ -45,17 +45,17 @@ const Footer = () => {
                 My Current Lessons
               </h6>
               <p className="mb-4">
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   TypeScript & React JS
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   Functional Programming
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   Express JS Progrmming
                 </a>
               </p>
@@ -65,12 +65,12 @@ const Footer = () => {
                 Important Links
               </h6>
               <p className="mb-4">
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   TypeScript React JS
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   TailWind CSS
                 </a>
               </p>
@@ -80,7 +80,7 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-gray-600">
+                <a href="/" className="text-gray-600">
                   Help
                 </a>
               </p>
@@ -148,7 +148,7 @@ const Footer = () => {
 
         <div className="text-center p-4 bg-gray-200">
           <div className="flex justify-center">
-            <a href="#!" className="mr-6 text-gray-800">
+            <a href="/" className="mr-6 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -165,7 +165,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-gray-800">
+            <a href="/" className="mr-6 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -181,7 +181,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-gray-800">
+            <a href="/" className="mr-6 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -197,7 +197,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-gray-800">
+            <a href="/" className="mr-6 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -213,7 +213,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-gray-800">
+            <a href="/" className="mr-6 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -229,7 +229,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="text-gray-800">
+            <a href="/" className="text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
