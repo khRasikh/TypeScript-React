@@ -1,13 +1,13 @@
 import React from "react";
 import "./Components.css";
 import Header from "./Header";
-import Index from "./../Tools/index";
+import Index from "./../Tools/propdetails";
 /**1. In this example, I used some very simple and easy examples of
  * Props in React-TypeScript. Let's get started the first Example:
  */
 /*a. Add variable properties*/
 type TagProps = {
-  name: string;
+  firstName: string;
   lastName: string;
   phone: string;
   email: string;
@@ -23,13 +23,13 @@ const TagName = (props: TagProps) => {
         <p>
           <b>TypeScrit Training:</b> Following personal information about{" "}
           <b>
-            {props.name} {props.lastName}{" "}
+            {props.firstName} {props.lastName}{" "}
           </b>
           are passed by props in TypeScript React:
           <hr />
         </p>
         <p>
-          <b>Name:</b> {props.name}{" "}
+          <b>Name:</b> {props.firstName}{" "}
         </p>
         <p>
           <b>Last Name:</b> {props.lastName}{" "}
@@ -55,7 +55,7 @@ const TagName = (props: TagProps) => {
 
 const PropsApp = () => (
   <TagName
-    name="Khudadad"
+    firstName="Khudadad"
     lastName="Rasikh"
     email="kh.rasikh542@gmail.com"
     phone="+49(0)1634880974"
@@ -72,7 +72,7 @@ const PassToAnother = () => {
   const mydate = new Date();
   return (
     <>
-      <Index name={name} id={id} />
+      <Index firstName={name} id={id} />
     </>
   );
 };
