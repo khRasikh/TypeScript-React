@@ -5,6 +5,7 @@ import PassToAnother from "./Components/Propss";
 import PropsApp from "./Components/Propss";
 import UseState from "./Components/UseState";
 import UseEffect from "./Components/UseEffect";
+import UseRefTypeB from "./Components/UseRef";
 
 import {
   BrowserRouter as Routers,
@@ -62,6 +63,7 @@ function App() {
           <Route path="/propsb" element={<PropsApp />} />
           <Route path="/usestate" element={<UseState />} />
           <Route path="/useeffect" element={<UseEffect />} />
+          <Route path="/useref" element={<UseRefTypeB />} />
         </Routes>
         <Footer />
       </Routers>
