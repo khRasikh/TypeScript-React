@@ -1,0 +1,77 @@
+.newApp {
+  background-color: #0b9ed0;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+}
+
+.newBody {
+  background-color: #ededed;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  height: 400px;
+}
+.newFooter {
+  background-color: #0b9ed0;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  height: 40%;
+}
+
+.newButton {
+  background-color: #0b9ed0;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.newInput {
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: rgb(255 255 255 / 40%) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.15385;
+  margin: 5px;
+  outline: none;
+  padding: 8px 8px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
