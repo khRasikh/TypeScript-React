@@ -7,6 +7,7 @@ import UseState from "./Components/UseState";
 import UseEffect from "./Components/UseEffect";
 import UseRefTypeB from "./Components/UseRef";
 import UseContextType from "./Components/useContext";
+import UseReducerType from "./Components/UseReducer";
 
 import {
   BrowserRouter as Routers,
@@ -47,6 +48,12 @@ export function Product() {
             <Link to="/usecontext">UseContext Example</Link>
           </button>
         </div>
+
+        <div>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+            <Link to="/usereducer">UseReducer Example</Link>
+          </button>
+        </div>
       </div>
     </>
   );
@@ -66,6 +73,7 @@ function App() {
           <Route path="/useeffect" element={<UseEffect />} />
           <Route path="/useref" element={<UseRefTypeB />} />
           <Route path="/usecontext" element={<UseContextType />} />
+          <Route path="/usereducer" element={<UseReducerType />} />
         </Routes>
         <Footer />
       </Routers>

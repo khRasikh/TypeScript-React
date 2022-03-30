@@ -57,7 +57,6 @@ export const PropsApp = () => (
 export const PassToAnother = () => {
   const id = 12221;
   const name = "Khudadad Rasikh";
-  const mydate = new Date();
   return (
     <>
       <Index name={name} id={id} />

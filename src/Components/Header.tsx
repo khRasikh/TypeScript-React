@@ -40,7 +40,7 @@ const callsToAction = [
     icon: PlayIcon,
   },
   {
-    name: "Contact Sales",
+    name: "Contact me",
     href: "https://www.linkedin.com/in/khrasikh/",
     icon: PhoneIcon,
   },
@@ -236,7 +236,8 @@ const Header = () => {
               </Popover>
 
               <a
-                href="/"
+                target="_banlk"
+                href="https://www.linkedin.com/in/khrasikh/"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Contact Me

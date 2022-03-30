@@ -75,7 +75,7 @@ const Footer = () => {
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#" className="text-gray-600">
+                <a href="/usereducer" className="text-gray-600">
                   Express JS & NOde JS
                 </a>
               </p>

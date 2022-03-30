@@ -4,7 +4,6 @@ import "./Components.css";
 //1. import useEffect
 import { useState } from "react";
 
-/**Here is another example of useState in TypeScript React */
 const UseStateType = () => {
   const [Odd, setOdd] = useState(0);
   return (
@@ -14,7 +13,7 @@ const UseStateType = () => {
           <p className="my-6">
             <b>TypeScrit-React: </b>Here you see how I used UseState Example:
           </p>
-          <h2 style={{ color: "green" }}></h2>
+
           <button
             type="button"
             className="newButton"
@@ -22,7 +21,7 @@ const UseStateType = () => {
           >
             Click Here to Increement(++)
           </button>
-          <h2>{Odd}</h2>
+          <h2 style={{ color: "green" }}>{Odd}</h2>
 
           <button
             type="button"
